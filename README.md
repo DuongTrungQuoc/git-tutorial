@@ -6,5 +6,5 @@
 <img src="images/conflict.png"/>
 
 # Git Workflow Diagram
-<p>Thư mục đang làm việc ───(git add <file>)───> Staging Area ───(git commit)───> Committed ───(git push)───> Repo</p>
-<p> Thư mục đang làm việc<──(git restore --staged)──Staging Area</p>
+<p>Thư mục đang làm việc ───[git add <file>]───> StagingArea ───[git commit]───> Committed ───[git push]───> Repo</p>
+<p> Thư mục đang làm việc<──[git restore --staged]──Staging Area</p>
