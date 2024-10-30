@@ -1,3 +1,30 @@
+### 1. Xóa và thêm lại remote origin
+- Kiểm tra remote hiện tại: git remote -v
+- git remote remove origin
+- git remote add origin https://github.com/DuongTrungQuoc/Face_Detection_with_MTCNN.git
+
+### 2. .gitignore
+- touch .gitignore
+- git rm -r --cached .
+- git add .
+- git commit -m "Cập nhật .gitignore"
+#### Node modules
+node_modules/
+
+#### Logs
+logs
+*.log
+
+#### Operating system files
+.DS_Store
+
+#### Environment files
+.env
+
+#### IDE specific files
+.vscode/
+
+
 <h2>Thao tác trên nhánh (branch)</h2> 
 
 ### 1. Liệt kê các branch
