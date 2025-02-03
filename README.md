@@ -63,6 +63,13 @@ logs
   #### Code: git branch -D old-feature
 - #### Thiết lập branch hiện tại để theo dõi main từ remote origin:
   #### Code: git branch -u origin/main
+  
+### 11. Cấu hình git config
+
+- git config --global user.name "Your Name"
+
+- git config --global user.email "your-email@example.com"
+
 <h2>Git Workflow Diagram</h2> 
 <p>Thư mục đang làm việc ───[git add _file]───> StagingArea ───[git commit]───> Committed ───[git push]───> Repo</p>
 <p> Thư mục đang làm việc<──[git restore --staged]──Staging Area</p>
